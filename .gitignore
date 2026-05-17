@@ -1,0 +1,55 @@
+# ─── Python ─────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# ─── Virtual environments ───────────────────────────────────
+venv/
+env/
+.venv/
+.env
+
+# ─── Jupyter ────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── IDE ────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# ─── Model artifacts (large files) ──────────────────────────
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+model_output/
+results/
+
+# ─── Data — proprietary, NEVER commit ───────────────────────
+# Raw provider data must not be redistributed; only the documented
+# sample_synthetic_data.csv schema illustration is tracked.
+data/
+*.parquet
+*.feather
+*.h5
+*.hdf5
+# whitelist the synthetic sample explicitly:
+!data_schema/sample_synthetic_data.csv
+
+# ─── Logs ───────────────────────────────────────────────────
+*.log
+logs/
+runs/
+wandb/
+mlruns/
+
+# ─── OS ─────────────────────────────────────────────────────
+Thumbs.db

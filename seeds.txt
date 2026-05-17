@@ -1,0 +1,8 @@
+# Random seeds for multi-seed evaluation protocol
+# As reported in Pinitjitsamut (2026), Section 3.4 and Table 11.
+# One seed per line, comments start with #.
+7
+42
+123
+999
+2024
