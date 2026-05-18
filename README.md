@@ -55,7 +55,8 @@ rubber-vmd-bilstm/
 ├── evaluation/                       ← evaluation protocols
 │   ├── metrics.py                    ←   DA, Pearson r, StdR, recall, MAE/RMSE
 │   ├── multiseed_evaluation.py       ←   5-seed primary protocol (Table 11)
-│   └── ablation_evaluation.py        ←   architecture ablation (Table 10)
+│   ├── ablation_evaluation.py        ←   architecture ablation (Table 10)
+│   └── ablation_evaluation.py        ←   paired bootstrap intervals (Appendix G)
 │
 ├── multistep/                        ← multi-horizon direct forecasting
 │   └── step9d_multistep_both.py      ←   h ∈ {1,2,3,5,10,20,30}, both arch (Table 14)
